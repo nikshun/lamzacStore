@@ -14,11 +14,11 @@
 }
 .bar {
   margin-top: -2px;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 .name {
   margin-left: 15px;
-  color: black;
+  zcolor: black;
 }
 .name h1 {
   color: black;
@@ -37,4 +37,5 @@
 .item a {
   text-decoration: none;
   color: black;
+  font-size: 16px;
 }

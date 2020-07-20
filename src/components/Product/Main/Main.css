@@ -1,0 +1,50 @@
+.color-picker {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.color-block {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+}
+.color-picker:not(:last-child) {
+  margin-top: -30px;
+}
+.selected-color {
+  width: 500px;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.green {
+  background-color: #027924;
+}
+.orange {
+  background-color: #ff8a00;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: #0029ff;
+}
+.dark-blue {
+  background-color: #270079;
+}
+img {
+  width: 600px;
+}
+
+.productName {
+  text-align: center;
+  width: 100%;
+  color: #c9c9c9;
+  font-size: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+

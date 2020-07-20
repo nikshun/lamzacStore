@@ -1,0 +1,35 @@
+.person {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(168, 168, 168);
+}
+.comment {
+  text-align: center;
+}
+.reverse {
+  transform: rotate(180deg);
+  width: 50px;
+  float: right;
+}
+
+.dots {
+  width: 50px;
+}
+.slider {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.wrapper h3 {
+  text-align: center;
+  width: 100%;
+  color: #888888;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}

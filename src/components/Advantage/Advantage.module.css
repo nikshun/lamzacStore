@@ -1,0 +1,33 @@
+.componentName {
+  text-align: center;
+  width: 100%;
+  color: #c9c9c9;
+  font-size: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+.product img {
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  border-radius: 130px;
+}
+.product {
+  display: flex;
+  margin-left: 40px;
+}
+
+.waves_reverse svg {
+  transform: rotate(180deg);
+  padding: 0;
+  margin: -5px;
+}
+
+
+.indent {
+  margin-top: 100px;
+}
+
+.advantage hr {
+  margin-top: 40px;
+}

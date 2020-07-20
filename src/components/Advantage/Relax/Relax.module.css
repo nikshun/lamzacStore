@@ -1,0 +1,54 @@
+/* MAIN */
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "first second third";
+  text-align: center;
+}
+/* SOME GRID AREAS */
+.first {
+  grid-area: first;
+}
+.second {
+  grid-area: second;
+}
+.third {
+  grid-area: third;
+}
+/* SETTINGS */
+.product img {
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  border-radius: 130px;
+}
+
+.relaxIn {
+  color: #3b3b3b;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.text {
+  color: #202020;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 22px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: normal;
+  margin-left: 55px;
+  width: 70%;
+}
+.relax {
+  color: rgb(104, 104, 104);
+  font-size: 50px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

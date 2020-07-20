@@ -1,0 +1,66 @@
+/* MAIN */
+.product {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "first second third" "forth fifth sixth";
+  text-align: center;
+}
+/* SOME GRID AREAS */
+.first {
+  grid-area: first;
+}
+.second {
+  grid-area: second;
+}
+.third {
+  grid-area: third;
+}
+.forth {
+  grid-area: forth;
+  margin-top: 40px;
+}
+.fifth {
+  grid-area: fifth;
+  margin-top: 40px;
+
+}
+.sixth {
+  grid-area: sixth;
+  margin-top: 40px;
+
+}
+/* SETTINGS */
+.product img {
+  width: 230px;
+  height: 180px;
+  text-align: center;
+  border-radius: 130px;
+}
+
+.item {
+  color: #3b3b3b;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.text {
+  color: #202020;
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 22px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: normal;
+  margin-left: 55px;
+  width: 70%;
+}
+.relax {
+  color: rgb(104, 104, 104);
+  font-size: 50px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

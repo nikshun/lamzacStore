@@ -1,34 +1,41 @@
 import React from "react";
 import css from "./Content.module.css";
+import brand from "../photos/brand.png";
+import { animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import Content_waves from "./Content_waves/Content_waves";
+
+const Item = (props) => {
+  return (
+    <div className={css.bar}>
+        <Link to={props.id} smooth={true} duration={1000}>
+          {props.text}
+        </Link>
+    </div>
+  );
+};
 
 const Content = () => {
   return (
-    <div className={css.content}>
+    <div className={css.content} id="content">
       <div className={css.about}>
         <div className={css.text}>
           <h1>Надувной диван ламзак</h1>
           <div className={css.input}>
-            Недавно у нас появилась отличная вещь для отдыха и туризма –
-            надувной диван ламзак. Мы давно хотели испробовать его в деле.
-            Сегодня я напишу отзыв о нем, а также дам парочку полезных советов,
-            как выбрать качественный ламзак, и быстро его надуть. На выходные мы
-            испробовали наши крутые ламзаки и готовы поделиться впечатлениями.
+            Давно известно, что лень движет прогрессом. А лучше всего лениться
+            на море, в горах или на даче, главное, чтобы было время, свежий
+            воздух и диван. Надувной. Голландский дизайнер Marijn Oomen в 2010
+            году придумал ламзак, что в переводе означает «ленивый человек».
           </div>
           <div className={css.button}>
-            <button>Заказать</button>
+              <Item text="Заказать" id="product" />
           </div>
         </div>
         <div className={css.main}>
-          <img
-            className={css.lamzac}
-            src="https://lamzak.store/img/brand.png"
-          />
+          <img className={css.lamzac} src={brand} />
         </div>
       </div>
-
-      <div className={css.waves}>
-        <img src="https://www.doitlean.com/images/waves.svg" />
-      </div>
+      <Content_waves />
     </div>
   );
 };

@@ -5,7 +5,11 @@
 .about img {
   margin-top: 100px;
 }
-
+.waves_reverse svg {
+  transform: rotate(180deg);
+  padding: 0;
+  margin: -5px;
+}
 .name {
   color: #ff8717;
   width: 200px;
@@ -23,24 +27,17 @@
   width: 500px;
 }
 
-.button button {
-  position: relative;
-  font-size: 14px;
-  line-height: 17px;
-  display: inline-block;
-  min-width: 145px;
-  padding: 16px 32px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-image: linear-gradient(135deg, #ef4836 0%, #d94a3b 100%);
-  cursor: pointer;
-  text-decoration: none;
-  transition: none;
-  border: none;
-}
-
 .button {
+  background-color: #0099ff;
+  border-radius: 30px;
+  padding: 12px 45px;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
   margin-top: 60px;
-  margin-bottom: 30px;
+}
+.button:hover {
+  background-color: white;
+  color: #0099ff;
+  border: 2px solid #0099ff;
 }

@@ -1,0 +1,6 @@
+.videos {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+}

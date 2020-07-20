@@ -1,0 +1,5 @@
+.waves_reverse svg {
+  transform: rotate(180deg);
+  padding: 0;
+  margin: -5px;
+}

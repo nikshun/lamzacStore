@@ -1,15 +1,23 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
-import Production from "./components/Production/Production";
+import Production from "./components/Advantage/Advantage";
+import Header from "./components/Header/Header";
+import Product from "./components/Product/Product";
+import Enjoyment from "./components/Enjoyment/Enjoyment";
+import Description from "./components/Description/Description";
+import Feedback from "./components/Feedback/Feedback";
 
 function App() {
   return (
     <div className="app-wrapper">
       <Header />
-      <Content id="1"/>
-      <Production id="2"/>
+      <Content />
+      <Production />
+      <Product />
+      <Enjoyment />
+      <Description />
+      <Feedback />
     </div>
   );
 }
