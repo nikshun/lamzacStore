@@ -29,13 +29,12 @@ const Header = (props) => {
           LAMZAC<strong>.store</strong>
         </h1>
       </div>
-      <div className={css.items}></div>
       <Item text="Преимущества" id="advantage" />
       <Item text="Ламзаки" id="product" />
       <Item text="Как надуть" id="enjoyment" />
       <Item text="Доставка и оплата" id="description" />
       <Item text="Отзывы" id="feedback" />
-      <Item text="Контакты" id="contact" />
+      <Item text="Контакты" id="contacts" />
     </header>
   );
 };

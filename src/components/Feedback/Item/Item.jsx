@@ -21,49 +21,16 @@ const Person = (props) => {
   );
 };
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "red",
-      }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "green",
-      }}
-      onClick={onClick}
-    />
-  );
-}
-
 export default class Item extends React.Component {
   render() {
     var settings = {
       dots: true,
       infinite: true,
       speed: 500,
-      arrows: true,
       afterChange: false,
       responsive: false,
       slidesToShow: 1,
       slidesToScroll: 1,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
     };
     return (
       <div className={css.wrapper}>
