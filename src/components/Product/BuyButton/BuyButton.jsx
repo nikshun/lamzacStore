@@ -1,9 +1,10 @@
 import React from "react";
 import "./BuyButton.css";
+import logo from "../../photos/black_logo.png";
 
 class BuyButton extends React.Component {
   state = { show: false };
-  
+
   showModal = () => {
     this.setState({ show: true });
   };
@@ -15,15 +16,10 @@ class BuyButton extends React.Component {
   render() {
     return (
       <main>
-        <Modal show={this.state.show} handleClose={this.hideModal} >
+        <Modal show={this.state.show} handleClose={this.hideModal}>
           <div className="modal-contents">
             <div className="logo">
-              <img src="https://www.freelogodesign.org/file/app/client/thumb/60fb90db-7abe-4440-9f74-7217d14c5fe3_200x200.png?1593445042380" />
-            </div>
-            <div className="name">
-              <h1>
-                LAMZAC<strong>.store</strong>
-              </h1>
+              <img src={logo} />
             </div>
             <form action="">
               <input type="text" placeholder="Телефон" />
@@ -34,15 +30,20 @@ class BuyButton extends React.Component {
             </form>
           </div>
         </Modal>
-        <button className="button" onClick={this.showModal}>
-          Заказать
-        </button>
+
+        <div class="button_cont" align="center" onClick={this.showModal}>
+          <a
+            class="main_b"
+          >
+            Заказать
+          </a>
+        </div>
       </main>
     );
   }
 }
 
-const Modal = ({ handleClose, show, children, }) => {
+const Modal = ({ handleClose, show, children }) => {
   const showHideClassName = show ? "modal display-block" : "modal display-none";
 
   return (

@@ -1,4 +1,10 @@
 /* MAIN */
+.production {
+  background-color: rgb(53, 53, 53);
+  padding-top: 20px;
+  padding-bottom: 70px;
+  margin-bottom: 50px;
+}
 .product {
   margin-top: 40px;
   display: grid;
@@ -28,7 +34,6 @@
 .sixth {
   grid-area: sixth;
   margin-top: 40px;
-
 }
 /* SETTINGS */
 .product img {
@@ -39,14 +44,14 @@
 }
 
 .item {
-  color: #3b3b3b;
+  color: #ffffff;
   font-size: 30px;
   font-family: Helvetica, sans-serif;
   margin-top: 15px;
   padding-bottom: 10px;
 }
 .text {
-  color: #202020;
+  color: #ffffff;
   font-size: 17px;
   margin-top: 20px;
   line-height: 22px;
@@ -55,8 +60,8 @@
   margin-left: 55px;
   width: 70%;
 }
-.relax {
-  color: rgb(104, 104, 104);
+.name {
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-family: Helvetica, sans-serif;
   font-weight: 600;

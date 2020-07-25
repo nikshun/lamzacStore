@@ -1,6 +1,6 @@
 .main {
   height: 300px;
-  background-color: #0099ff;
+  background-color: rgb(53, 53, 53);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 2fr;
 }
@@ -8,13 +8,15 @@
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: 200;
+  margin-top: 20px;
   text-align: center;
 }
 .menu {
   text-align: center;
 }
 .name {
-  color: rgb(43 92 181);
+  margin-bottom: 20px;
+  color: white;
   font-weight: bold;
   text-align: center;
   font-size: 25px;
@@ -26,7 +28,6 @@
 }
 .social {
   margin-top: 20px;
-
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: 200;

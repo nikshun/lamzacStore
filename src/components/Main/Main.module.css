@@ -41,3 +41,10 @@
   color: #0099ff;
   border: 2px solid #0099ff;
 }
+.main {
+  position: relative;
+}
+.header {
+  position: absolute;
+  z-index: 1;
+}

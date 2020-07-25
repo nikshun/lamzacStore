@@ -1,0 +1,129 @@
+/* MAIN SETTINGS */
+.gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  margin-bottom: 60px;
+}
+/* FIRST GALLERY IMG */
+
+.first {
+  grid-area: "first";
+  width: 500px;
+}
+.first div {
+  background: rgb(
+    0,
+    0,
+    0
+  ); /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+  overflow: hidden; /* Ограничиваем видиую область */
+}
+.first div img {
+  opacity: 1;
+  transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
+  width: 100%;
+  height: auto;
+  display: block; /* Убираем полосу под картинкий */
+}
+.first:hover div img {
+  opacity: 0.7; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+  transform: scale(1.05); /* Увеличение картинки */
+}
+.first + .first div {
+  background: #fff; /* Если необходимо высветление картинки при наведении, оборачивающий div должен иметь белый фон */
+}
+
+/* SECOND GALLERY IMG */
+
+.second {
+  grid-area: "second";
+  width: 294px;
+  margin-left: 15px;
+}
+.second div {
+  background: rgb(
+    0,
+    0,
+    0
+  ); /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+  overflow: hidden; /* Ограничиваем видиую область */
+}
+.second div img {
+  opacity: 1;
+  transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
+  width: 100%;
+  height: auto;
+  display: block; /* Убираем полосу под картинкий */
+}
+.second:hover div img {
+  opacity: 0.7; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+  transform: scale(1.05); /* Увеличение картинки */
+}
+.second + .second div {
+  background: #fff; /* Если необходимо высветление картинки при наведении, оборачивающий div должен иметь белый фон */
+}
+/* GRID AREAS FOR 3 AND 4 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1);
+}
+/* THIRD GALLERY IMG */
+
+.third {
+  grid-area: "third";
+  width: 450px;
+  margin-left: 15px;
+  margin-bottom: 14px;
+}
+.third div {
+  background: rgb(
+    0,
+    0,
+    0
+  ); /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+  overflow: hidden; /* Ограничиваем видиую область */
+}
+.third div img {
+  opacity: 1;
+  transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
+  width: 100%;
+  height: 240px;
+  display: block; /* Убираем полосу под картинкий */
+}
+.third:hover div img {
+  opacity: 0.7; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+  transform: scale(1.05); /* Увеличение картинки */
+}
+.third + .third div {
+  background: #fff; /* Если необходимо высветление картинки при наведении, оборачивающий div должен иметь белый фон */
+}
+
+/* FOURTH GALLERY IMG */
+
+.fourth {
+  grid-area: "fourth";
+  width: 450px;
+  margin-left: 15px;
+}
+.fourth div {
+  background: rgb(
+    0,
+    0,
+    0
+  ); /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+  overflow: hidden; /* Ограничиваем видиую область */
+}
+.fourth div img {
+  opacity: 1;
+  transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
+  width: 100%;
+  height: auto;
+  display: block; /* Убираем полосу под картинкий */
+}
+.fourth:hover div img {
+  opacity: 0.7; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+  transform: scale(1.05); /* Увеличение картинки */
+}
+.fourth + .fourth div {
+  background: #fff; /* Если необходимо высветление картинки при наведении, оборачивающий div должен иметь белый фон */
+}
