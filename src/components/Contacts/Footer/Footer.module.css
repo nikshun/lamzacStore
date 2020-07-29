@@ -3,6 +3,7 @@
   background-color: rgb(53, 53, 53);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 2fr;
+  padding-top: 20px;
 }
 .item {
   color: white;

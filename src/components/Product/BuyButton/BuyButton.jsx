@@ -16,7 +16,7 @@ class BuyButton extends React.Component {
   render() {
     return (
       <main>
-        <Modal show={this.state.show} handleClose={this.hideModal}>
+        <Modal show={this.state.show} handleClose={this.hideModal} >
           <div className="modal-contents">
             <div className="logo">
               <img src={logo} />
@@ -31,7 +31,7 @@ class BuyButton extends React.Component {
           </div>
         </Modal>
 
-        <div class="button_cont" align="center" onClick={this.showModal}>
+        <div class="button_cont" align="center" onClick={this.showModal} >
           <a
             class="main_b"
           >
@@ -47,7 +47,7 @@ const Modal = ({ handleClose, show, children }) => {
   const showHideClassName = show ? "modal display-block" : "modal display-none";
 
   return (
-    <div className={showHideClassName}>
+    <div className={showHideClassName} >
       <section className="modal-main">
         {children}
         <div className="close" onClick={handleClose}>
