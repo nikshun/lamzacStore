@@ -52,3 +52,13 @@ button:focus {
   outline: none;
 }
 
+/* Responsive starts here */
+
+
+@media screen and (max-width: 1200px) {
+  .captions {
+    margin-right: 20px;
+    margin-left: -5px;
+  }
+  
+}

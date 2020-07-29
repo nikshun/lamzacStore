@@ -5,6 +5,7 @@ const Videos = () => {
   return (
     <div className={css.videos}>
       <iframe
+        className={css.left}
         width="560"
         height="315"
         src="https://www.youtube.com/embed/p7N9_IPeOt4"
@@ -13,6 +14,7 @@ const Videos = () => {
         allowFullScreen
       ></iframe>
       <iframe
+        className={css.right}
         width="560"
         height="315"
         src="https://www.youtube.com/embed/VA3rIR8Qpvg"
