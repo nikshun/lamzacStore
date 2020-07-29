@@ -32,21 +32,22 @@ const Footer = () => {
             <div className={css.name}>Соц-сети</div>
             <div className={css.social}>Инстаграм</div>
             <div className={css.social}>Фейсбук</div>
-            <div className={css.social}>Вайбер</div>
+            <div className={css.social}>Email</div>
             <div className={css.social}>OLX</div>
           </div>
           <div className={css.numbers}>
             <div className={css.name}>Контакты</div>
-            <div className={css.number}>(067) XXX-XXX-XXX</div>
-            <div className={css.number}>(095) XXX-XXX-XXX</div>
-            <div className={css.number}>(073) XXX-XXX-XXX</div>
+            <div className={css.number}>+380 (68) 729 15 97</div>
+            <div className={css.number}>+380 (67) 248 22 14</div>
+            <div className={css.number}>+380 (66) 067 03 01</div>
           </div>
           <div className={css.information}>
             <div className={css.name}>Информация</div>
             <div className={css.text}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              optio modi nisi ea architecto. Quasi unde laborum fugit rem
-              quaerat.
+              В любой момент вы можете написать нам в соц сетях или позвонить
+              нам по данным телефонам. Если у вас возникли вопросы, и ответы вы
+              не нашли на нашем сайте или в воду сетях, то сообщите нам их также
+              сообщением или с помощью телефонного звонка.
             </div>
           </div>
         </div>
