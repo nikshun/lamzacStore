@@ -13,6 +13,18 @@ class BuyButton extends React.Component {
     this.setState({ show: false });
   };
 
+  sendTelegramRequest = () => {
+    let xhr = new XMLHttpRequest();
+    let url = "https://api.telegram.org/bot1368153163:AAEq5F2xFnbVYYekVqqF6oibH5jeLlDLjds/sendMessage?chat_id=-1001279398311&text="
+    let phone = document.getElementById("phone-tg").value
+    let info = document.getElementById("info-tg").value
+    url += "Телефон: " + phone + "%0a"
+    url+= "Данные: " + info + "%0a"
+    url+= new Date().toJSON().slice(0,10).replace(/-/g,'/')
+    xhr.open('GET', url);
+    xhr.send();
+  }
+
   render() {
     return (
       <main>
@@ -22,11 +34,13 @@ class BuyButton extends React.Component {
               <img src={logo} />
             </div>
             <form action="">
-              <input type="text" placeholder="Телефон" />
-              <input type="email" placeholder="Ваши данные" />
-              <a href="#" className="bg-button">
+              <input id="phone-tg" type="text" placeholder="Телефон" />
+              <input id="info-tg" type="email" placeholder="Ваши данные" />
+
+              <a onClick={this.sendTelegramRequest} href="#" className="bg-button">
                 Submit
               </a>
+
             </form>
           </div>
         </Modal>
