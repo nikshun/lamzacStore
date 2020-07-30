@@ -4,3 +4,14 @@
   grid-template-columns: 1fr 1fr;
   margin-left: 10px;
 }
+
+/* Responsive starts here */
+
+@media screen and (max-width: 1200px) {
+  .left {
+    width: 90%;
+  }
+  .right {
+    width: 90%;
+  }
+}

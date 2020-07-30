@@ -26,6 +26,8 @@
 .text {
   color: white;
   margin-top: 15px;
+  text-align: center;
+  margin-left: 10px;
 }
 .social {
   margin-top: 20px;
