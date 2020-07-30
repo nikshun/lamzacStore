@@ -38,6 +38,7 @@ input {
   display: inline-block;
   transition: all 0.3s ease 0s;
   margin-left: -130px;
+  cursor: pointer;
 }
 .main_b:hover {
   color: #20bf6b !important;
@@ -47,6 +48,7 @@ input {
 }
 /* bg-button  */
 .bg-button {
+  cursor: pointer;
   text-align: center;
   color: #494949 !important;
   text-transform: uppercase;

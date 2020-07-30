@@ -7,7 +7,7 @@
 /* FIRST GALLERY IMG */
 
 .first {
-  max-width: 500px;
+  width: 500px;
 }
 .first div {
   background: rgb(
@@ -20,7 +20,6 @@
 .first div img {
   opacity: 1;
   transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
-  max-width: 100%;
   height: auto;
   display: block; /* Убираем полосу под картинкий */
 }
@@ -35,7 +34,7 @@
 /* SECOND GALLERY IMG */
 
 .second {
-  max-width: 294px;
+  width: 294px;
   margin-left: 15px;
 }
 .second div {
@@ -48,8 +47,8 @@
 }
 .second div img {
   opacity: 1;
+  width: 353px;
   transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
-  width: 100%;
   height: auto;
   display: block; /* Убираем полосу под картинкий */
 }
@@ -68,9 +67,8 @@
 /* THIRD GALLERY IMG */
 
 .third {
-  max-width: 450px;
   margin-left: 15px;
-  margin-bottom: 14px;
+  margin-bottom: 15px;
 }
 .third div {
   background: rgb(
@@ -83,8 +81,6 @@
 .third div img {
   opacity: 1;
   transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
-  max-width: 100%;
-  height: 240px;
   display: block; /* Убираем полосу под картинкий */
 }
 .third:hover div img {
@@ -98,7 +94,6 @@
 /* FOURTH GALLERY IMG */
 
 .fourth {
-  max-width: 450px;
   margin-left: 15px;
 }
 .fourth div {
@@ -112,8 +107,8 @@
 .fourth div img {
   opacity: 1;
   transition: opacity 200ms linear, transform 200ms linear; /* Плавное изменение прозрачности и увеличения */
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 285px;
   display: block; /* Убираем полосу под картинкий */
 }
 .fourth:hover div img {
@@ -122,27 +117,4 @@
 }
 .fourth + .fourth div {
   background: #fff; /* Если необходимо высветление картинки при наведении, оборачивающий div должен иметь белый фон */
-}
-
-/* Responsive starts here */
-
-
-@media screen and (max-width: 1200px) {
-	.gallery {
-		width: 100%;
-  }
-  .first {
-    width: 40%;
-    margin-right: 7px;
-  }
-  .second {
-    width: 23.5%;
-    margin-right: 7px;
-  }
-  .grid {
-    width: 34%;
-  }
-  .third {
-    margin-bottom: 20px;
-  }
 }

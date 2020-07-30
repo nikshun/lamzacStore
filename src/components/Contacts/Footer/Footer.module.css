@@ -6,6 +6,7 @@
   padding-top: 20px;
 }
 .item {
+  cursor: pointer;
   color: white;
   font-family: Helvetica, sans-serif;
   font-weight: 200;
@@ -30,6 +31,7 @@
   margin-left: 10px;
 }
 .social {
+  cursor: pointer;
   margin-top: 20px;
   color: white;
   font-family: Helvetica, sans-serif;
@@ -37,6 +39,7 @@
   text-align: center;
 }
 .number {
+  cursor: pointer;
   margin-top: 20px;
   color: white;
   font-family: Helvetica, sans-serif;
