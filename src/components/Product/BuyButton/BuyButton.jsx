@@ -38,7 +38,7 @@ class BuyButton extends React.Component {
               <input id="info-tg" type="email" placeholder="Ваши данные" />
 
               <a onClick={this.sendTelegramRequest} href="#" className="bg-button">
-                Submit
+                Отправить
               </a>
 
             </form>

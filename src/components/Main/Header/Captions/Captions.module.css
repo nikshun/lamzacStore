@@ -2,10 +2,10 @@
   display: flex;
   color: white;
   margin-top: 36px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .caption {
-  margin-left: 40px;
+  margin-left: 50px;
   font-size: 20px;
   font-family: Arial, sans-serif;
   font-style: normal;
@@ -22,6 +22,7 @@
 }
 
 .content {
+  cursor: pointer;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -50,15 +51,4 @@
 button:active,
 button:focus {
   outline: none;
-}
-
-/* Responsive starts here */
-
-
-@media screen and (max-width: 1200px) {
-  .captions {
-    margin-right: 20px;
-    margin-left: -5px;
-  }
-  
 }
