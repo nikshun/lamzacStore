@@ -11,7 +11,7 @@ import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <div className="wrapper">
       <Main />
       <Production />
       <Product />
