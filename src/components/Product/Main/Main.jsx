@@ -16,6 +16,7 @@ const items = [
   {
     id: 1,
     color: "black",
+    // className:"chosen",
     img: black,
   },
   {

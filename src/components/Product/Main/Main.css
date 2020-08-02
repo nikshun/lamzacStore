@@ -1,72 +1,79 @@
 .color-picker {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
 }
 
 .color-block {
-  cursor: pointer;
-  margin-top: 30px;
-  margin-left: 30px;
-  width: 50px;
-  height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
 }
+
 .color-picker:not(:last-child) {
-  margin-top: -30px;
-  margin-left: 145px;
-  margin-right: 145px;
+    margin-top: -30px;
+    margin-left: 145px;
+    margin-right: 145px;
 }
+
 .selected-color {
-  width: 500px;
-  height: 200px;
-  margin-left: 100px;
-  margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .black {
-  background-color: #3a3a3a;
+    background-color: #3a3a3a;
 }
 
 .darkBlue {
-  background-color: #212748;
+    background-color: #212748;
 }
 
 .blue {
-  background-color: #3151ae;
+    background-color: #3151ae;
 }
 
 .skyBlue {
-  background-color: #31b4ff;
+    background-color: #31b4ff;
 }
 
 .green {
-  background-color: #41f97a;
+    background-color: #41f97a;
 }
 
 .pink {
-  background-color: #fd6cc3;
+    background-color: #fd6cc3;
 }
+
 .purple {
-  background-color: #b75bf5;
+    background-color: #b75bf5;
 }
 
 .orange {
-  background-color: #ff5b2a;
+    background-color: #ff5b2a;
 }
 
 .red {
-  background-color: #c13e3c;
+    background-color: #c13e3c;
 }
 
 img {
-  width: 600px;
+    width: 600px;
 }
 
 .productName {
-  text-align: center;
-  width: 100%;
-  color: #c9c9c9;
-  font-size: 100px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
+    text-align: center;
+    width: 100%;
+    color: #c9c9c9;
+    font-size: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+}
+
+.chosen {
+    border: 10px solid grey;
 }
