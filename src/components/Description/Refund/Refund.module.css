@@ -1,7 +1,7 @@
 .name {
   color: rgb(255, 255, 255);
-  font-size: 50px;
   font-family: Helvetica, sans-serif;
+  font-size: 50px;
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
@@ -9,9 +9,9 @@
 }
 .text {
   color: #ffffff;
-  font-size: 18px;
   margin-top: 20px;
   line-height: 22px;
+  font-size: 18px;
   font-family: Roboto, Arial, sans-serif;
   font-weight: normal;
   margin-left: 55px;
@@ -22,3 +22,9 @@
 .second {
   margin-top: 20px;
 }
+
+.refund {
+  margin-bottom: 10%;
+}
+/* Responsive starts here */
+

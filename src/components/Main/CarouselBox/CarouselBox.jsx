@@ -9,38 +9,38 @@ import main3 from "../../photos/main3.jpg";
 export default class CarouselBox extends Component {
   render() {
     return (
-      <Carousel>
+      <Carousel className="carousel">
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="main"
             src={main1}
             alt="First slide"
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="caption">
             <h3>ПРИРОДА</h3>
             <p>Незаменимый атрибут для всех, кто любит отдыхать на природе</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="main"
             src={main2}
             alt="Third slide"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption className="caption">
             <h3>ПУТЕШЕСТВИЯ</h3>
             <p>Комфорт в любом месте, будь то аэропорт или живописный пляж</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="main"
             src={main3}
             alt="Third slide"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption className="caption">
             <h3>ГОРЫ</h3>
             <p>Всегда найдется место для друзей и неожиданно нагрянувших гостей</p>
           </Carousel.Caption>

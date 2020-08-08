@@ -5,7 +5,7 @@ import Production from "./Production/Production";
 
 const Advantage = (props) => {
   return (
-    <div className={css.advantage} id="advantage">
+    <div className={css.container} id="advantage">
       <div className={css.componentName}>Преимущества</div>
       <Relax />
       <Production />

@@ -21,6 +21,7 @@
   width: 50px;
 }
 .slider {
+  cursor: pointer;
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
@@ -37,3 +38,21 @@
   outline: 0;
   outline: none;
 }
+
+/* Responsive starts here */
+@media (max-width: 1440px) {
+  .name {
+    font-size: 20px;
+  }
+  .comment {
+    font-size: 20px;
+  }
+} 
+
+@media (max-width: 425px) {
+  .wrapper h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
+

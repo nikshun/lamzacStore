@@ -4,6 +4,7 @@ import "./BuyButton.css";
 import logo from "../../photos/black_logo.png";
 
 
+
 const customStyles = {
   content: {
     top: "50%",
@@ -14,8 +15,6 @@ const customStyles = {
     transform: "translate(-50%, -50%)",
   },
 };
-
-var color = ''
 
 export default class BuyButton extends React.Component {
   constructor() {
@@ -28,19 +27,16 @@ export default class BuyButton extends React.Component {
     this.handleCloseModal = this.handleCloseModal.bind(this);
   }
 
+  
+
   handleOpenModal() {
     this.setState({ showModal: true });
   }
-  
+
   handleCloseModal() {
     this.setState({ showModal: false });
   }
 
-
-  chooseColor = () => {
-    // var element = document.getElementsByClassName("chosne")
-  }
-  
   sendTelegramRequest = () => {
     let xhr = new XMLHttpRequest();
     let url =
@@ -58,7 +54,6 @@ export default class BuyButton extends React.Component {
     return (
       <div>
         <button onClick={this.handleOpenModal} className="order">
-
           Заказать
         </button>
         <Modal
@@ -74,7 +69,8 @@ export default class BuyButton extends React.Component {
               <div className="main">
                 <div className="color">
                   <h4>Цвет</h4>
-                  <div className="color-picker"></div>
+                  <div className="color-block">
+                  </div>
                 </div>
                 <div className="quantity">
                   <h4>Количество</h4>

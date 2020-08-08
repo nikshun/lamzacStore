@@ -1,0 +1,68 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .link {
+    margin-top: -5px;
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .brand img {
+    height: 80px;
+    width: 200px;
+  }
+  .brand {
+    margin-left: 80px;
+  }  
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../photos/menu.png");
+}
+
+@media (max-width: 1024px) {
+  .link {
+    margin-top: -5px;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .brand img {
+    height: 60px;
+    width: 150px;
+  }
+  .brand {
+    margin-left: 90px;
+  }  
+}
+
+@media (max-width: 768px) {
+  .link {
+    margin-top: -5px;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .brand img {
+    height: 50px;
+    width: 130px;
+  }
+  .brand {
+    margin-left: 5px;
+  }  
+}
+
+@media (max-width: 425px) {
+  .link {
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .brand img {
+    height: 60px;
+    width: 160px;
+  }
+}
+

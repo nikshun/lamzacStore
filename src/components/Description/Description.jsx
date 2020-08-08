@@ -9,7 +9,7 @@ const Description = () => {
   return (
     <div className={css.description} id="description">
       <Fade left>
-        <div className={css.componentName}>Доставка и оплата</div>
+        <div className={css.componentName}>Опции</div>
         <div className={css.content}>
           <Delivery className={css.delivery} />
           <Payment className={css.payment} />

@@ -46,3 +46,38 @@
   font-weight: 200;
   text-align: center;
 }
+
+.myButton {
+background-color: rgba(0, 0, 0, 0);
+border: none;
+outline: none;
+}
+
+.myColor {
+  background-color: rgb(53, 53, 53);
+}
+/* Responsive starts here */
+
+@media (max-width: 425px) {
+  .item {
+    font-size: 20px;
+  }
+  .social {
+    font-size: 20px;
+  }
+  .number {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .main {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) {
+  .mode {
+    display: none;
+  }
+}

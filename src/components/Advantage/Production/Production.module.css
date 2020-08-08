@@ -56,7 +56,6 @@
   margin-top: 20px;
   line-height: 22px;
   font-family: Roboto, Arial, sans-serif;
-  font-weight: normal;
   margin-left: 55px;
   width: 70%;
 }
@@ -68,4 +67,34 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+  .text {
+    font-size: 25px;
+    line-height: 25px;  }
+  .item {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 425px) {
+  .product {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+  .text {
+    margin-left: 70px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+  .relaxIn {
+    font-size: 40px;
+  }
+  .item {
+    font-size: 35px;
+  }
 }

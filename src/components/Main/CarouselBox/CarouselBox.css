@@ -1,7 +1,41 @@
 .wrapper {
-    position: relative;
+  position: relative;
 }
-.carousel-control-next, .carousel-control-prev {
-    margin-top: 70px;
-    margin-bottom: 70px;
+.caption {
+  position: absolute;
+  z-index: 0;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.d-block {
+  max-width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .carousel h3 {
+    font-size: 40px;
+  }
+  .carousel p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel img {
+    width: 800px;
+    height: 830px;
+    margin-left: -250px;
+  }
+  .carousel h3 {
+    font-size: 30px;
+  }
+  .carousel p {
+    font-size: 20px;
+  }
 }

@@ -16,7 +16,6 @@ const items = [
   {
     id: 1,
     color: "black",
-    // className:"chosen",
     img: black,
   },
   {
@@ -53,14 +52,12 @@ const items = [
     id: 8,
     color: "orange",
     img: orange,
-
   },
-  {
-    id: 9,
-    color: "red",
-    img: red,
-
-  },
+  // {
+  //   id: 9,
+  //   color: "red",
+  //   img: red,
+  // },
 ];
 
 const ColorBlock = ({ color, onClick }) => (
@@ -77,7 +74,7 @@ const ColorPicker = ({ onSelect }) => (
 
 const SelectedColor = ({ img = "" }) => (
   <div className="selected-color">
-    <img src={img} />
+    <img src={img} className="lamzac" />
   </div>
 );
 
@@ -86,13 +83,15 @@ const Main = () => {
 
   const activeColor = items.find((i) => i.id === active) || {};
 
+  localStorage.setItem("color", activeColor);
+
   console.log(activeColor);
 
   return (
     <>
       <div className="productName">Ламзаки</div> <br />
-      <ColorPicker onSelect={setActive} />
-      <SelectedColor {...activeColor} />
+        <ColorPicker onSelect={setActive} />
+        <SelectedColor {...activeColor} />
     </>
   );
 };

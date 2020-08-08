@@ -23,9 +23,8 @@
 
 .relaxIn {
   color: #3b3b3b;
-  font-size: 40px;
   font-family: Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 15px;
@@ -33,18 +32,16 @@
 }
 .text {
   color: #202020;
-  font-size: 18px;
   margin-top: 20px;
   line-height: 22px;
   font-family: Roboto, Arial, sans-serif;
   font-weight: normal;
   margin-left: 55px;
-  width: 70%;
+  width: 80%;
 }
 
 .name {
   color: rgb(104, 104, 104);
-  font-size: 50px;
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   text-align: center;
@@ -52,3 +49,48 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 1440px) {
+  .text {
+    margin-left: 40px;
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .relaxIn {
+    font-size: 40px;
+  }
+  .name {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .product {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .first {
+    width: 100%;
+  }
+  .second {
+    width: 100%;
+  }
+  .third {
+    width: 100%;
+  }
+  .text {
+    margin-left: 40px;
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .relaxIn {
+    font-size: 40px;
+  }
+  .name {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}

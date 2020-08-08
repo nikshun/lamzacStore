@@ -1,6 +1,5 @@
 .name {
   color: #202020;
-  font-size: 18px;
   margin-top: 20px;
   line-height: 22px;
   font-family: Roboto, Arial, sans-serif;
@@ -12,30 +11,25 @@
 .info {
   margin-top: -210px;
   margin-left: 725px;
-  font-size: 25px;
 }
-.info li {
+.list li {
   list-style: none;
 }
-.info ul {
+.list {
   margin-top: 10px;
 }
 .name {
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   margin-left: 40px;
-  font-size: 25px;
 }
-.cost {
+.price {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #202020;
-  margin-left: 30px;
   margin-bottom: 10px;
 }
-
-
 
 .buy {
   margin-top: 35px;
@@ -44,22 +38,52 @@
 }
 
 .bg-modal {
-	background-color: rgba(0, 0, 0, 0.8);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	display: none;
-	justify-content: center;
-	align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-contents {
-	height: 300px;
-	width: 500px;
-	background-color: white;
-	text-align: center;
-	padding: 20px;
-	position: relative;
-	border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media (max-width: 1440px) {
+  .list {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .price {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .list {
+    font-size: 23px;
+    margin-left: -20px;
+  }
+  .name {
+    font-size: 27px;
+    margin-left: 20px;
+  }
+  .price {
+    font-size: 40px;
+    margin-left: -40px;
+  }
+  .info {
+    margin-top: 140px;
+    margin-left: 0px;
+  }
+  
 }

@@ -1,12 +1,9 @@
 .description {
   background-color: rgb(53, 53, 53);
-  height: 650px;
 }
 .componentName {
   text-align: center;
-  width: 100%;
   color: #ffffff;
-  font-size: 100px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
@@ -14,13 +11,35 @@
   grid-area: delivery;
 }
 .payment {
+  margin-bottom: 30px;
+
   grid-area: payment;
 }
 .refund {
+  margin-bottom: 30px;
+
   grid-area: refund;
 }
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "delivery payment refund";
+}
+
+/* Responsive starts here */
+@media (max-width: 1440px) {
+  .componentName {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 425px) {
+  .componentName {
+    font-size: 70px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "delivery" " payment" " refund";
+  }
 }

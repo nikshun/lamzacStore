@@ -8,3 +8,15 @@
   text-align: center;
   padding-top: 3px;
 }
+
+/* Responsive starts here */
+
+@media (min-width: 1200px) {
+  .info {
+    font-size: 20px;
+  }
+  .basement {
+    height: 40px;
+    background-color: rgb(34, 34, 34);
+  }  
+}
