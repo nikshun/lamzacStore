@@ -1,3 +1,4 @@
+/* COMPONENT NAME */
 .componentName {
   text-align: center;
   width: 100%;
@@ -5,18 +6,23 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
+
+/* FEEDBACK */
 .feedback {
   margin-top: 100px;
 }
 
 /* Responsive starts here */
+
 @media (max-width: 1440px) {
+ /* COMPONENT NAME */
   .componentName {
     font-size: 70px;
   }
 } 
 
 @media (max-width: 425px) {
+  /* COMPONENT NAME */
   .componentName {
     font-size: 70px;
   }

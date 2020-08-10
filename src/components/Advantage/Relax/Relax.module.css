@@ -1,9 +1,10 @@
-/* MAIN */
+/* MAIN SETTINGS */
 .product {
   display: flex;
   text-align: center;
   margin-bottom: 70px;
 }
+
 /* SETTINGS */
 .first {
   width: 40%;

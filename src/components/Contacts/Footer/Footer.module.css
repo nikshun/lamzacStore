@@ -59,24 +59,34 @@ outline: none;
 /* Responsive starts here */
 
 @media (max-width: 425px) {
+  /* ITEM */
   .item {
     font-size: 20px;
   }
+
+  /* SOCIAL */
   .social {
     font-size: 20px;
   }
+
+  /* NUMBER */
   .number {
     font-size: 20px;
   }
+
+  /* TEXT */
   .text {
     font-size: 20px;
   }
+
+  /* MAIN */
   .main {
     display: none;
   }
 }
 
 @media (min-width: 426px) {
+  /* MODE */
   .mode {
     display: none;
   }

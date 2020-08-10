@@ -1,3 +1,4 @@
+/* NAME */
 .name {
   color: rgb(255, 255, 255);
   font-family: Helvetica, sans-serif;
@@ -7,6 +8,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* TEXT */
 .text {
   color: #ffffff;
   margin-top: 20px;
@@ -19,12 +22,13 @@
   text-align: center;
 }
 
+/* SECOND */
 .second {
   margin-top: 20px;
 }
 
+/* REFUND */
 .refund {
   margin-bottom: 10%;
 }
-/* Responsive starts here */
 

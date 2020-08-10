@@ -1,3 +1,4 @@
+/* NAME */
 .name {
   color: #202020;
   margin-top: 20px;
@@ -7,22 +8,26 @@
   margin-left: 55px;
   width: 70%;
 }
-
+/* INFO */
 .info {
   margin-top: -210px;
   margin-left: 725px;
 }
+/* LIST */
 .list li {
   list-style: none;
 }
+/* LIST */
 .list {
   margin-top: 10px;
 }
+/* NAME */
 .name {
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   margin-left: 40px;
 }
+/* PRICE */
 .price {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -30,13 +35,13 @@
   color: #202020;
   margin-bottom: 10px;
 }
-
+/* BUY */
 .buy {
   margin-top: 35px;
   margin-left: 110px;
   margin-bottom: 75px;
 }
-
+/* BG MODAL */
 .bg-modal {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
@@ -47,7 +52,7 @@
   justify-content: center;
   align-items: center;
 }
-
+/* MODAL CONTENTS */
 .modal-contents {
   background-color: white;
   text-align: center;
@@ -56,34 +61,44 @@
   border-radius: 4px;
 }
 
+/* RESPONSIVE START HERE */
 @media (max-width: 1440px) {
+  /* LIST */
   .list {
     font-size: 30px;
   }
+  /* NAME */
   .name {
     font-size: 30px;
   }
+  /* PRICE */
   .price {
     font-size: 50px;
   }
 }
 
 @media (max-width: 425px) {
+  /* LIST */
+
   .list {
     font-size: 23px;
     margin-left: -20px;
   }
+  /* NAME */
+
   .name {
     font-size: 27px;
     margin-left: 20px;
   }
+  /* PRICE */
+
   .price {
     font-size: 40px;
     margin-left: -40px;
   }
+  /* INFO */
   .info {
     margin-top: 140px;
     margin-left: 0px;
   }
-  
 }

@@ -12,9 +12,12 @@
 /* Responsive starts here */
 
 @media (min-width: 1200px) {
+  /* INFO */
   .info {
     font-size: 20px;
   }
+  
+  /* BASEMENT */
   .basement {
     height: 40px;
     background-color: rgb(34, 34, 34);

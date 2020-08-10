@@ -1,3 +1,5 @@
+/* NAVBAR SETTINGS */
+
 .navbar {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -5,64 +7,85 @@
   width: 100%;
 }
 
-@media (max-width: 1440px) {
-  .link {
-    margin-top: -5px;
-    font-size: 25px;
-    margin-left: 5px;
-  }
-  .brand img {
-    height: 80px;
-    width: 200px;
-  }
-  .brand {
-    margin-left: 80px;
-  }  
-}
+/* MENU ICON */
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("../../photos/menu.png");
 }
 
+/* Responsive starts here */
+
+@media (max-width: 1440px) {
+  /* LINK SETTINGS */
+  .link {
+    margin-top: -5px;
+    font-size: 25px;
+    margin-left: 5px;
+  }
+
+  /* BRAND ICON SETTINGS */
+  .brand img {
+    height: 80px;
+    width: 200px;
+  }
+
+  /* BRAND SETTINGS */
+  .brand {
+    margin-left: 80px;
+  }
+}
+
 @media (max-width: 1024px) {
+  /* LINK SETTINGS */
   .link {
     margin-top: -5px;
     font-size: 18px;
     margin-left: 5px;
   }
+
+  /* BRAND ICON SETTINGS */
   .brand img {
     height: 60px;
     width: 150px;
   }
+
+  /* BRAND SETTINGS */
   .brand {
     margin-left: 90px;
-  }  
+  }
 }
 
 @media (max-width: 768px) {
+  /* LINK SETTINGS */
   .link {
     margin-top: -5px;
     font-size: 15px;
     margin-left: 5px;
   }
+
+  /* BRAND ICON SETTINGS */
   .brand img {
     height: 50px;
     width: 130px;
   }
+
+  /* BRAND SETTINGS */
   .brand {
     margin-left: 5px;
-  }  
+  }
 }
 
 @media (max-width: 425px) {
+  /* LINK SETTINGS */
   .link {
     margin-top: 5px;
     font-size: 25px;
     text-align: center;
   }
+
+  /* BRAND ICON SETTINGS */
   .brand img {
     height: 60px;
     width: 160px;
   }
 }
-

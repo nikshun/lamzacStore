@@ -1,10 +1,15 @@
+/* FIRST */
 .first {
   margin-right: 32px;
 }
+
+/* SECOND */
 .second {
   margin-right: 32px;
   margin-left: 10px;
 }
+
+/* TEXT */
 .text {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -17,6 +22,8 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+/* DESCRIPTION */
 .description {
   color: #5c5b5b;
   width: 100%;

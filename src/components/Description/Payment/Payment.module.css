@@ -1,3 +1,4 @@
+/* NAME */
 .name {
   color: rgb(255, 255, 255);
   font-size: 50px;
@@ -7,6 +8,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* TEXT */
 .text {
   color: #ffffff;
   font-size: 18px;
@@ -19,8 +22,8 @@
   text-align: center;
 }
 
+/* PAYMENT */
 .payment {
   margin-bottom: 10%;
 }
-/* Responsive starts here */
 

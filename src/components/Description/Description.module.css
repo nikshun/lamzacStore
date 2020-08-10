@@ -27,16 +27,21 @@
 }
 
 /* Responsive starts here */
+
 @media (max-width: 1440px) {
+  /* COMPONENT NAME */
   .componentName {
     font-size: 70px;
   }
 }
 
 @media (max-width: 425px) {
+  /* COMPONENT NAME */
   .componentName {
     font-size: 70px;
   }
+
+  /* CONTENT */
   .content {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
