@@ -1,31 +1,37 @@
+/* PERSON */
 .person {
   margin-left: 10px;
   margin-right: 10px;
 }
+/* NAME */
 .name {
   text-align: center;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: rgb(168, 168, 168);
 }
+/* COMMENT */
 .comment {
   text-align: center;
 }
+/* REVERSE */
 .reverse {
   transform: rotate(180deg);
   width: 50px;
   float: right;
 }
-
+/* DOTS */
 .dots {
   width: 50px;
 }
+/* SLIDER */
 .slider {
   cursor: pointer;
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
 }
+/* WRAPPER H3 */
 .wrapper h3 {
   text-align: center;
   width: 100%;
@@ -34,6 +40,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
+/* FOCUS */
 *:focus {
   outline: 0;
   outline: none;
@@ -41,15 +48,18 @@
 
 /* Responsive starts here */
 @media (max-width: 1440px) {
+  /* NAME */
   .name {
     font-size: 20px;
   }
+  /* COMMENT */
   .comment {
     font-size: 20px;
   }
 } 
 
 @media (max-width: 425px) {
+  /* WRAPPER H3 */
   .wrapper h3 {
     font-size: 25px;
     margin-bottom: 30px;

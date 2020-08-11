@@ -1,11 +1,16 @@
+/* FIRST */
 .first {
   margin-right: 32px;
   margin-bottom: 50px;
 }
+
+/* SECOND */
 .second {
   margin-right: 32px;
   margin-left: 10px;
 }
+
+/* CONTENT */
 .content {
   display: flex;
   color: #383838;
@@ -18,6 +23,8 @@
   margin-left: 10px;
   text-align: center;
 }
+
+/* DESCRIPTION */
 .description {
   color: #5c5b5b;
   width: 100%;
@@ -29,28 +36,37 @@
   margin-bottom: 10px;
 }
 
+/* LEFT */
 .left {
   margin-top: 20px;
 }
+
+/* RIGHT */
 .right {
   margin-top: 20px;
 }
 
+/* Responsive starts here */
+
 @media (max-width: 1440px) {
+  /* LEFT */
   .first {
     font-size: 35px;
   }
+  /* SECOND */
   .second {
     font-size: 35px;
   }
+  /* DESCRIPTION */
   .description {
     font-size: 22px;
-    
   }
+  /* LEFT */
   .left {
     width: 100%;
     height: 400px;
   }
+  /* RIGHT */
   .right {
     width: 100%;
     height: 400px;
@@ -58,13 +74,16 @@
 }
 
 @media (max-width: 425px) {
+  /* CONTENT */
   .content {
     flex-wrap: wrap;
   }
+  /* LEFT */
   .left {
     width: 100%;
     height: 200px;
   }
+  /* RIGHT */
   .right {
     width: 100%;
     height: 200px;

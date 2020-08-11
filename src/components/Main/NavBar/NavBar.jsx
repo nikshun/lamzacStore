@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./Header.css";
+import "./NavBar.css";
 import logo from "../../photos/logo.png";
 import { Navbar, Container, NavbarBrand, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
 
-export default class Header extends Component {
+export default class NavBar extends Component {
   render() {
     return (
-      <Navbar collaplseOnSelect expand="md" className="navbar">
+      <Navbar fixed="top" collaplseOnSelect expand="md" className="navbar">
         <Container>
           <Navbar.Brand className="brand">
             <img
@@ -86,11 +86,4 @@ export default class Header extends Component {
   }
 }
 
-/*      <div className="captions">
-        <Caption text="Преимущества" id="advantage" className="advantage" />
-        <Caption text="Ламзаки" id="product" className="product" />
-        <Caption text="Как надуть" id="enjoyment" className="enjoyment" />
-        <Caption text="Опции" id="description" className="description" />
-        <Caption text="Отзывы" id="feedback" className="feedback" />
-        <Caption text="Контакты" id="contacts" className="contacts" />
-      </div>  */
+

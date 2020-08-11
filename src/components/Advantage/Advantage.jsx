@@ -3,7 +3,7 @@ import css from "./Advantage.module.css";
 import Relax from "./Relax/Relax";
 import Production from "./Production/Production";
 
-const Advantage = (props) => {
+const Advantage = () => {
   return (
     <div className={css.container} id="advantage">
       <div className={css.componentName}>Преимущества</div>

@@ -1,3 +1,4 @@
+/* ALL VIDEOS */
 .videos {
   display: grid;
   grid-gap: 1em;
@@ -8,9 +9,11 @@
 /* Responsive starts here */
 
 @media screen and (max-width: 1200px) {
+  /* LEFT */
   .left {
     width: 90%;
   }
+  /* RIGHT */
   .right {
     width: 90%;
   }

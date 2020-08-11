@@ -1,3 +1,4 @@
+/* COMPONENT NAME */
 .componentName {
   text-align: center;
   width: 100%;
@@ -6,6 +7,8 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
+
+/* ENJOYMENT */
 .enjoyment {
   margin-bottom: 20px;
 }
@@ -13,6 +16,7 @@
 /* Responsive starts here */
 
 @media (max-width: 425px) {
+  /* COMPONENT NAME */
   .componentName {
     font-size: 50px;
     margin-top: 30px;

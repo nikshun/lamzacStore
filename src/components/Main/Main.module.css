@@ -1,46 +1,8 @@
-.about {
-  display: flex;
-  flex-direction: row;
-}
-.about img {
-  margin-top: 100px;
-}
-.waves_reverse svg {
-  transform: rotate(180deg);
-  padding: 0;
-  margin: -5px;
-}
-.name {
-  color: #ff8717;
-  width: 200px;
-  text-align: center;
-}
-.text {
-  margin-left: 50px;
-  margin-top: 100px;
-  font-size: 22px;
-}
-.input {
-  width: 500px;
-}
-
-.button {
-  background-color: #0099ff;
-  border-radius: 30px;
-  padding: 12px 45px;
-  color: white;
-  display: inline-block;
-  font-size: 30px;
-  margin-top: 60px;
-}
-.button:hover {
-  background-color: white;
-  color: #0099ff;
-  border: 2px solid #0099ff;
-}
+/* MAIN */
 .main {
   position: relative;
 }
+/* HEADER */
 .header {
   position: absolute;
   z-index: 1;

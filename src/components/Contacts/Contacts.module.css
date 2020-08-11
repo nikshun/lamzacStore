@@ -1,7 +1,9 @@
+/* WRAPPER SETTINGS */
 .wrapper {
   height: 300px;
   background-color: rgb(53, 53, 53);
 }
+/* CONTACTS */
 .contacts {
   margin-top: 100px;
 }

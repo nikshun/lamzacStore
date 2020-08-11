@@ -5,7 +5,7 @@ import lamzac1 from "../../photos/lamzac1.jpg";
 import lamzac2 from "../../photos/lamzac2.jpg";
 import lamzac3 from "../../photos/lamzac3.jpg";
 
-const Relax = (props) => {
+const Relax = () => {
   return (
     <div className={css.relax} id="relax">
       <Fade left>

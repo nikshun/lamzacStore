@@ -1,9 +1,10 @@
+/* COLOR PICKER SETTINGS */
 .color-picker {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 10px;
 }
-
+/* COLOR BLOCK SETTING */
 .color-block {
   cursor: pointer;
   margin-top: 30px;
@@ -11,62 +12,74 @@
   width: 60px;
   height: 60px;
 }
+/* COLOR PICKER MAIN SETTINGS */
 .color-picker:not(:last-child) {
   margin-top: -30px;
   margin-left: 145px;
   margin-right: 145px;
 }
+/* SELECTOR COLOR */
 .selected-color {
   width: 500px;
   height: 200px;
   margin-left: 100px;
   margin-top: 50px;
 }
-
+/* black BLOCK */
 .black {
   grid-area: "black";
   background-color: #3a3a3a;
 }
+/* darkBlue BLOCK */
 
 .darkBlue {
   grid-area: "darkBlue";
   background-color: #212748;
 }
+/* blue BLOCK */
 
 .blue {
   grid-area: "blue";
   background-color: #3151ae;
 }
+/* skyBlue BLOCK */
 
 .skyBlue {
   grid-area: "skyBlue";
   background-color: #31b4ff;
 }
+/* green BLOCK */
 
 .green {
   grid-area: "green";
   background-color: #41f97a;
 }
+/* pink BLOCK */
 
 .pink {
   grid-area: "pink";
   background-color: #fd6cc3;
 }
+/* purple BLOCK */
+
 .purple {
   grid-area: "purple";
   background-color: #b75bf5;
 }
+/* orange BLOCK */
 
 .orange {
   grid-area: "orange";
   background-color: #ff5b2a;
 }
+/* red BLOCK */
 
 /* .red {
   grid-area: "red";
   background-color: #c13e3c;
 } */
 
+/* PRODUCT NAME  */
 .productName {
   text-align: center;
   width: 100%;
@@ -76,37 +89,46 @@
   font-weight: 800;
 }
 
+/* RESPONSIVE START HERE */
 @media (max-width: 1440px) {
+  /* COLOR BLOCK  */
   .color-block {
     width: 60px;
     height: 60px;
   }
+  /* LAMZAC IMAGE */
   .lamzac {
     width: 650px;
   }
 }
 
 @media (max-width: 425px) {
+  /* COLOR PICKER */
   .color-picker {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "black darkBlue blu  skyBlue green" "pink purple orange red";
     margin-bottom: 10px;
   }
+  /* COLOR BLOCK */
   .color-block {
     width: 60px;
     height: 60px;
   }
+  /* LAMZAC */
   .lamzac {
     width: 82%;
   }
+  /* PRODUCT NAME  */
   .productName {
     font-size: 70px;
   }
+  /* SELECTOR COLOR  */
   .selected-color {
     margin-left: 0px;
     margin-top: 40px;
   }
+  /* COLOR PICKER MAIN SETTINGS */
   .color-picker:not(:last-child) {
     margin-left: 10px;
   }
