@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Footer.module.css";
 import { Link } from "react-scroll";
 import Fade from "react-reveal/Fade";
-import { Accordion, Card, Button } from "react-bootstrap";
+import { Accordion, Card } from "react-bootstrap";
 
 const Item = (props) => {
   return (
@@ -55,10 +55,18 @@ const Footer = () => {
             </Card.Header>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <div className={css.social}>Инстаграм</div>
-                <div className={css.social}>Фейсбук</div>
-                <div className={css.social}>Email</div>
-                <div className={css.social}>OLX</div>
+                <div className={css.social}>
+                  <a>Инстаграм</a>
+                </div>
+                <div className={css.social}>
+                  <a>Фейсбук</a>
+                </div>
+                <div className={css.social}>
+                  <a>Email</a>
+                </div>
+                <div className={css.social}>
+                  <a>OLX</a>
+                </div>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -97,7 +105,7 @@ const Footer = () => {
                 <div className={css.text}>
                   В любой момент вы можете написать нам в соц сетях или
                   позвонить нам по данным телефонам. Если у вас возникли
-                  вопросы, и ответы вы не нашли на нашем сайте или в воду сетях,
+                  вопросы, и ответы вы не нашли на нашем сайте или в соц-сетях,
                   то сообщите нам их также сообщением или с помощью телефонного
                   звонка.
                 </div>
